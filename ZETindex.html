@@ -38,7 +38,6 @@
             <a class="btn ghost" href="#services">Our Services</a>
           </div>
         </div>
-        <section id="Product dashboard" class="Product dashboard">
         <div class="hero-visual">
           <div class="card">
             <h3>Product Dashboard</h3>
@@ -58,75 +57,61 @@
           </div>
         </div>
       </div>
-  </section>
+    </section>
 
   <section id="services" class="services">
-  <section class="hero">
+    <div class="hero">
       <div class="container">
         <div class="hero-visual">
           <div class="card">
-            <table>
-              <tr>
-                <h1>UL/UX Design</h1>
-                  <td>Mobile applications can be built for specific operating systems, such as iOS and Android, or as cross-platform apps that work on multiple systems.</td>
-                 </annimation-interface>
-              </tr>
-            </table>
+            <h2>UI/UX Design</h2>
+            <p>Mobile applications can be built for specific operating systems, such as iOS and Android, or as cross-platform apps that work on multiple systems.</p>
           </div>
         </div>
       </div>
-  </section>
-  </section>
+    </div>
 
-  <section class="hero">
+  <div class="hero">
       <div class="container">
         <div class="hero-visual">
           <div class="card">
-            <table>
-              <tr>
-                <h1>Digital Marketing</h1>
-                  <td>Digital marketingbanding design focuses on creating a cohensive brand identity. It combinesvisual elements, messaging, and stratergy on enhance recognition</td>
-              </tr>
-            </table>         
-           </div>
+            <h2>Digital Marketing</h2>
+            <p>Digital marketing and branding design focuses on creating a cohesive brand identity. It combines visual elements, messaging, and strategy to enhance recognition.</p>
+          </div>
+        </div>
       </div>
+  </div>
 
-  <section class="hero">
+  <div class="hero">
     <div class="container">
       <div class="hero-visual">
         <div class="card">
-          <table>
-            <tr>
-               <h1>web development</h1>
-                  <td>developers can deploy hybrid apps across multiple platforms like IOS and Android, saving time and cost compared to building separate native apps</td>
-            </tr>
-          </table>
+          <h2>Web Development</h2>
+          <p>Developers can deploy hybrid apps across multiple platforms like iOS and Android, saving time and cost compared to building separate native apps.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="hero">
+  <div class="hero">
     <div class="container">
       <div class="hero-visual">
         <div class="card">
-          <table>
-            <tr>
-              <h1>AI and Automation</h1>
-                  <td>AI enables system to perform tasks that typically require human cognitive ablities such as learning, problem-solving and decision-making.</td>
-            </tr>
-          </table>
+          <h2>AI and Automation</h2>
+          <p>AI enables systems to perform tasks that typically require human cognitive abilities such as learning, problem-solving and decision-making.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
   </section>
 
-  <section id="About us" class="About us">
-    <div class="card">
-      <h1>With vast experience in project management, our team delivers practical expertise.</h1>
-      <h3>ABOUT US</h3>
-      <p>Founded in 2015, ZET has grown into one of the leading and most innovative IT companies in the industry. With a team of over 120 talented professionals, we specialize in delivering cutting-edge technology solutions that drive business success. Our commitment to innovation, excellence, and customer satisfaction has positioned as a trusted partner for businesses seeking to leverage for growth and efficiency.</p>
+  <section id="about-us" class="about-us">
+    <div class="container">
+      <div class="card">
+        <h1>With vast experience in project management, our team delivers practical expertise.</h1>
+        <h3>ABOUT US</h3>
+        <p>Founded in 2015, ZET has grown into one of the leading and most innovative IT companies in the industry. With a team of over 120 talented professionals, we specialize in delivering cutting-edge technology solutions that drive business success. Our commitment to innovation, excellence, and customer satisfaction has positioned us as a trusted partner for businesses seeking to leverage technology for growth and efficiency.</p>
+      </div>
     </div>
   </section>
   
@@ -161,6 +146,11 @@
     </div>
   </footer>
 
-  <script src="App.jsx"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('menuBtn').addEventListener('click', function() {
+      document.getElementById('nav').classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
