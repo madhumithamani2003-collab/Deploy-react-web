@@ -28,9 +28,3 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-
-# Old files (not needed in React structure)
-App.jsx
-ZETindex.html
-Appindex.html
-.package-lock.json
